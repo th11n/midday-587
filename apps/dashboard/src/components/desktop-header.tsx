@@ -1,13 +1,12 @@
 "use client";
 
-import { isDesktopApp } from "@midday/desktop-client/platform";
 import { usePathname } from "next/navigation";
 import { DesktopTrafficLight } from "./desktop-traffic-light";
 
 export function DesktopHeader() {
   const pathname = usePathname();
 
-  if (!isDesktopApp() || pathname.includes("/search")) {
+  if (pathname.includes("/search")) {
     return null;
   }
 

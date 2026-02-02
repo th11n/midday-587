@@ -27,7 +27,6 @@
     "@hookform/resolvers": "^5.2.2",
     "@midday/api": "workspace:*",
     "@midday/app-store": "workspace:*",
-    "@midday/desktop-client": "workspace:*",
     "@midday/documents": "workspace:*",
     "@midday/engine": "workspace:*",
     "@midday/events": "workspace:*",
@@ -41,6 +40,7 @@
     "@number-flow/react": "^0.5.10",
     "@polar-sh/checkout": "^0.1.14",
     "@polar-sh/nextjs": "^0.9.3",
+    "@radix-ui/react-icons": "^1.3.2",
     "@react-google-maps/api": "^2.20.7",
     "@react-pdf/renderer": "^4.3.1",
     "@sentry/nextjs": "^10",
@@ -78,6 +78,7 @@
     "react-dropzone": "^14.3.8",
     "react-hook-form": "^7.66.1",
     "react-hotkeys-hook": "^5.2.1",
+    "react-icons": "^5.5.0",
     "react-intersection-observer": "^10.0.0",
     "react-markdown": "^10.1.0",
     "react-pdf": "^10.2.0",
@@ -107,7 +108,7 @@
     "autoprefixer": "^10.4.24",
     "babel-plugin-react-compiler": "^1.0.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18",
+    "tailwindcss": "^3",
     "typescript": "^5.9.3"
   }
 }

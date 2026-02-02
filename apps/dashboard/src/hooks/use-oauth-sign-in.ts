@@ -1,7 +1,6 @@
 "use client";
 
 import { getUrl } from "@/utils/environment";
-import { isDesktopApp } from "@midday/desktop-client/platform";
 import { createClient } from "@midday/supabase/client";
 import type { Provider } from "@supabase/supabase-js";
 import { useSearchParams } from "next/navigation";
@@ -60,7 +59,7 @@ export function useOAuthSignIn(provider: OAuthProvider) {
     const redirectTo = new URL("/api/auth/callback", getUrl());
     redirectTo.searchParams.append("provider", provider);
 
-    const isDesktop = isDesktopApp();
+    const isDesktop = false;
 
     if (isDesktop) {
       redirectTo.searchParams.append("client", "desktop");
