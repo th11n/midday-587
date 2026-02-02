@@ -1,0 +1,7 @@
+[phases.setup]
+aptPkgs = [
+  "python3",
+  "make",
+  "g++",
+  "node-gyp"
+]
