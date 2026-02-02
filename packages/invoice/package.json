@@ -30,6 +30,10 @@
     "@midday/ui": "workspace:*",
     "@midday/utils": "workspace:*",
     "@react-pdf/renderer": "^4.3.1",
+    "@tiptap/core": "^3.18.0",
+    "@tiptap/extension-link": "^3.18.0",
+    "@tiptap/extension-underline": "^3.18.0",
+    "@tiptap/starter-kit": "^3.18.0",
     "date-fns": "^4.1.0",
     "jose": "^6.1.3",
     "qrcode": "^1.5.4"
