@@ -1,7 +1,15 @@
 [phases.setup]
-aptPkgs = [
-  "python3",
-  "make",
-  "g++",
-  "node-gyp"
+aptPkgs = ["python3", "make", "g++", "node-gyp"]
+
+[phases.install]
+cmds = [
+  "bun install --frozen-lockfile"
 ]
+
+[phases.build]
+cmds = [
+  "cd apps/dashboard && bun run build"
+]
+
+[start]
+cmd = "cd apps/dashboard && bun run start -- -p $PORT"
