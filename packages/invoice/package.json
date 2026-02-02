@@ -26,6 +26,7 @@
     "./recurring": "./src/utils/recurring.ts"
   },
   "dependencies": {
+    "@date-fns/tz": "^1.4.1",
     "@midday/ui": "workspace:*",
     "@midday/utils": "workspace:*",
     "@react-pdf/renderer": "^4.3.1",

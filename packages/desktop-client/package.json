@@ -11,5 +11,8 @@
     "./deep-links": "./src/platform.ts",
     "./desktop-variants": "./src/desktop-variants.ts",
     "./core": "./src/core.ts"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
   }
 }
