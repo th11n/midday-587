@@ -3,7 +3,7 @@ aptPkgs = ["python3", "make", "g++", "node-gyp"]
 
 [phases.install]
 cmds = [
-  "bun install --frozen-lockfile"
+  "bun install"
 ]
 
 [phases.build]
